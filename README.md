@@ -11,7 +11,7 @@ We have a small dataset, containing around 600 imagesclassified by the name of t
 
 ![](https://i.ibb.co/X7fK3TP/unet.png)
 
-# Training with 2 Classes:
+# Results:
 We trained our model providing the images labeled as their respective material (not informing the temperatures to the model, and not considering t > t_max). These are the generated images:
 
 ![](https://i.ibb.co/JdGkSRf/Figure-2.png)
