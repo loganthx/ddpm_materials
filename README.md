@@ -10,6 +10,8 @@ We have a small dataset, containing around 600 imagesclassified by the name of t
 # TEST 1: Training with 2 Classes:
 We trained our model with the images and material names (not informing the temperatures to the model, and not considering t > t_max=limit). These are the generated images:
 
+![](https://i.ibb.co/JdGkSRf/Figure-2.png)
+
 
 
 
