@@ -11,3 +11,6 @@ We have a small dataset, containing around 600 imagesclassified by the name of t
 We trained our model providing the images labeled as their respective material (not informing the temperatures to the model, and not considering t > t_max). These are the generated images:
 
 ![](https://i.ibb.co/JdGkSRf/Figure-2.png)
+
+# Future Works:
+We think that if we use a bigger dataset, we can have bigger batch sizes which makes the training significantly better, as experienced by previous denoising works. We take that as our next goal, with the reasoning of testing the model performance further.
