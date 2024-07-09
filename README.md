@@ -7,7 +7,9 @@ materials = ('7e', '8cb')
 # Small Dataset
 We have a small dataset, containing around 600 imagesclassified by the name of the material and it's temperature. Within those images, we have little variety of pixel distributios, because an image of the material makes very small changes along the temperature increasing process, except for the limit temperature, which suddenly changes the pixel distribution of the sample significantly. Knowing that, we will test our UNet, derived from dtransposed and changed so it better suits our purposes.
 
-# TEST 1: Generating samples training our model with the images and material names (not informing the temperatures to the model, and not considering t > t_max=limit)
+# TEST 1: Training with 2 Classes:
+We trained our model with the images and material names (not informing the temperatures to the model, and not considering t > t_max=limit). These are the generated images:
+
 
 
 
