@@ -11,9 +11,3 @@ We have a small dataset, containing around 600 imagesclassified by the name of t
 We trained our model with the images and material names (not informing the temperatures to the model, and not considering t > t_max). These are the generated images:
 
 ![](https://i.ibb.co/JdGkSRf/Figure-2.png)
-
-
-
-
-# TEST 2: Our UNet ability to generate samples with semantic significancy
-It's reasonable to doubt the previous results as a prove of the network good performance, because we feed many images that look alike, our dataset ends up being poor and the network might overfit the data. To test our net capacity of generating different samples, we train it so it accounts for the material temperatures. Our goal is to produce images of the transition from t_min to t_max. If it does so, the net succesfully maps the transition even if it happens suddenly and it is visuably noticeable in a small range of image compared to the dataset size.
